@@ -82,6 +82,20 @@
 
 
 }
+.banner-1{
+    position: absolute;
+    
+
+}
+.camera{
+    
+    z-index: 2;
+}
+.banner-1 img {
+    width: 475px;
+    height: 475px;
+
+}
 .camera img{
     width: 440px;
     height: 414px;
