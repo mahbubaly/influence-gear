@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.primary-btn{
+    padding: 10px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    color: white;
+    border: 0px;
+}
+/* 
+    Header and Nav
+*/
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.full-container{
+    margin: 0 auto;
+    width: 75%;
+}
+
+.nav-manu {
+    display: flex;
+    gap: 34px;
+}
+
+.manu {
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+
+.manu li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/*------------------------------
+ Banner and poster
+ --------------------------------*/
+
+.banner-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 130px;
+    padding-top: 130px;
+    margin-bottom: 80px;
+
+    
+    
+}
+
+.journey-content {
+    width: 100%;
+    
+}
+.journey-content h1{
+    font-size: 52px;
+
+}
+.journey-content p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.banner-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.camera img{
+    width: 440px;
+    height: 414px;
+}
+/* Companies logo */
+.companies-details{
+    width: 100%;
+    
+
+}
+.companies{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    width: 960px;
+    margin: auto;
+    
+    padding: 10px;
+    align-items:center;
+    
+    
+}
+
+/* Main and collection */
+.main-container{
+    width: 100%;
+    background-color: #F8F8F8;
+
+}
+.all-collections{
+    width: 1047px;
+    margin: auto;
+    
+}
+.all-collections > h3{
+    padding: 30px;
+    text-align: center;
+}
+
+.collection-section{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+    
+    
+    
+    
+
+}
+.collection{
+    padding: 20px;
+    
+    box-shadow: 5px 5px 10px white;
+    
+    
+    
+    
+
+}
+.collection img{
+    width: 100%;
+    
+}
+.fa-star.gold {
+    color: #FB8200;
+
+}
+.fa-star.gray{
+    color: rgb(177, 169, 169);
+}
+.See-more{
+    display: flex;
+    justify-content: flex-end;
+    color: #E02C6D;
+    align-items: center;
+    
+    
+}
+
+/* Madia quaray */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
