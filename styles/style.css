@@ -243,9 +243,8 @@
 
 .footer-container {
     background-color: #0A0826;
-    width: 1110px;
+    width: 100%;
     margin: 0 auto;
-    padding: 20px;
     color: white;
     display: flex;
     justify-content: center;
