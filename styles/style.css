@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
 
 }
 
@@ -20,8 +21,9 @@
 .header {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 40px;
+    
 }
 
 .full-container {
@@ -112,11 +114,10 @@
 }
 
 .companies {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
+    justify-content: space-between;
     width: 960px;
     margin: auto;
-
     padding: 10px;
     align-items: center;
 
@@ -187,7 +188,88 @@
 
 }
 
-/* Madia quaray */
+/*----------------------
+ Feature sections
+------------------------- */
+
+.features-section {
+    width: 100%;
+    background-color: #F8F8F8;
+
+}
+
+.features-container {
+
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+
+
+
+}
+
+.feature-content h1 {
+    margin-bottom: 15px;
+}
+
+.join-btn {
+    background-color: #E02C6D;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+}
+
+/*----------------------
+ Footer area
+------------------------- */
+
+.footer {
+    padding-top: 50px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #0A0826;
+
+
+
+
+
+}
+
+.footer-container {
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ---------------------
+Madia quaray 
+-------------------------*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 488px) {
@@ -205,15 +287,21 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .banner-photo{
+        width: 100%;
+    }
 
     .companies-details {
-        width: 100%;
+        width: 70%;
 
     }
 
     .companies {
+        width: 70%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+
+        justify-content: center;
     }
 
     .main-container {}
@@ -225,9 +313,23 @@
     }
 
     .collection-section {
-        
+
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-photo img {
+        width: 100%;
+    }
+    .features-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .footer-container{
+        width: 100%;
+
     }
 
 
