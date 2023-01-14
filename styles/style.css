@@ -232,8 +232,8 @@
 .footer {
     padding-top: 50px;
     width: 100%;
-    margin-top: 20px;
-    background-color: #0A0826;
+    background-color: #F8F8F8;
+    
 
 
 
@@ -242,6 +242,8 @@
 }
 
 .footer-container {
+    background-color: #0A0826;
+    width: 1110px;
     margin: 0 auto;
     padding: 20px;
     color: white;
@@ -272,7 +274,7 @@ Madia quaray
 -------------------------*/
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 488px) {
+@media only screen and (max-width: 688px) {
 
     .header,
     .nav-manu,
@@ -282,10 +284,17 @@ Madia quaray
         align-items: center;
 
     }
+    
 
     .banner-content {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .journey-content h1{
+        font-size: 25px;
+    }
+    .journey-content{
+        align-items: center;
     }
     .banner-photo{
         width: 100%;
@@ -337,6 +346,9 @@ Madia quaray
         justify-content: center;
         align-items: center;
     }
+    .feature-img img{
+        width: 100%;
+    }
 
 
 
@@ -344,7 +356,13 @@ Madia quaray
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width:689px) and (max-width:992px) {
+    /* .banner-content {
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
