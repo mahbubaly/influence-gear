@@ -331,6 +331,12 @@ Madia quaray
         width: 100%;
 
     }
+    .feature-content,.See-more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 
